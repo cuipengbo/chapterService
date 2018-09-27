@@ -1,0 +1,14 @@
+2018-9-26 11:32:54 main INFO Starting ChapterServiceApplication on cuipengbo-PC with PID 11844 (D:\workspace1\chapterService\target\classes started by cuipengbo in D:\workspace1\chapterService)
+2018-9-26 11:32:54 main DEBUG Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-9-26 11:32:54 main INFO No active profile set, falling back to default profiles: default
+2018-9-26 11:32:58 main INFO Started ChapterServiceApplication in 4.667 seconds (JVM running for 5.226)
+2018-9-26 11:32:58 main INFO ChapterServiceApplication ...启动完成 ..
+2018-9-26 11:32:59 SimpleAsyncTaskExecutor-1 DEBUG ==>  Preparing: SELECT userId,userName,password,phone FROM t_user 
+2018-9-26 11:32:59 SimpleAsyncTaskExecutor-1 DEBUG ==> Parameters: 
+2018-9-26 11:32:59 SimpleAsyncTaskExecutor-1 DEBUG <==      Total: 6
+2018-9-26 11:33:01 SimpleAsyncTaskExecutor-2 DEBUG ==>  Preparing: SELECT userId,userName,password,phone FROM t_user 
+2018-9-26 11:33:01 SimpleAsyncTaskExecutor-2 DEBUG ==> Parameters: 
+2018-9-26 11:33:01 SimpleAsyncTaskExecutor-2 DEBUG <==      Total: 6
+2018-9-26 11:33:04 SimpleAsyncTaskExecutor-3 DEBUG ==>  Preparing: SELECT userId,userName,password,phone FROM t_user 
+2018-9-26 11:33:04 SimpleAsyncTaskExecutor-3 DEBUG ==> Parameters: 
+2018-9-26 11:33:04 SimpleAsyncTaskExecutor-3 DEBUG <==      Total: 6

@@ -1,0 +1,26 @@
+2018-9-20 16:03:04 main INFO Starting ChapterServiceApplication on cuipengbo-PC with PID 13248 (D:\workspace1\chapterService\target\classes started by cuipengbo in D:\workspace1\chapterService)
+2018-9-20 16:03:04 main DEBUG Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-9-20 16:03:04 main INFO No active profile set, falling back to default profiles: default
+2018-9-20 16:04:02 main INFO Starting ChapterServiceApplication on cuipengbo-PC with PID 14676 (D:\workspace1\chapterService\target\classes started by cuipengbo in D:\workspace1\chapterService)
+2018-9-20 16:04:02 main DEBUG Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-9-20 16:04:02 main INFO No active profile set, falling back to default profiles: default
+2018-9-20 16:52:48 main INFO Starting ChapterServiceApplication on cuipengbo-PC with PID 9076 (D:\workspace1\chapterService\target\classes started by cuipengbo in D:\workspace1\chapterService)
+2018-9-20 16:52:48 main DEBUG Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-9-20 16:52:48 main INFO No active profile set, falling back to default profiles: default
+2018-9-20 16:52:52 main INFO Started ChapterServiceApplication in 4.872 seconds (JVM running for 5.433)
+2018-9-20 16:52:52 main INFO ChapterServiceApplication ...启动完成 ..
+2018-9-20 16:52:52 SimpleAsyncTaskExecutor-1 DEBUG ==>  Preparing: SELECT userId,userName,password,phone FROM t_user 
+2018-9-20 16:52:52 SimpleAsyncTaskExecutor-1 DEBUG ==> Parameters: 
+2018-9-20 16:52:52 SimpleAsyncTaskExecutor-1 DEBUG <==      Total: 6
+2018-9-20 16:52:55 SimpleAsyncTaskExecutor-2 DEBUG ==>  Preparing: SELECT userId,userName,password,phone FROM t_user 
+2018-9-20 16:52:55 SimpleAsyncTaskExecutor-2 DEBUG ==> Parameters: 
+2018-9-20 16:52:55 SimpleAsyncTaskExecutor-2 DEBUG <==      Total: 6
+2018-9-20 16:52:58 SimpleAsyncTaskExecutor-3 DEBUG ==>  Preparing: SELECT userId,userName,password,phone FROM t_user 
+2018-9-20 16:52:58 SimpleAsyncTaskExecutor-3 DEBUG ==> Parameters: 
+2018-9-20 16:52:58 SimpleAsyncTaskExecutor-3 DEBUG <==      Total: 6
+2018-9-20 16:53:01 SimpleAsyncTaskExecutor-4 DEBUG ==>  Preparing: SELECT userId,userName,password,phone FROM t_user 
+2018-9-20 16:53:01 SimpleAsyncTaskExecutor-4 DEBUG ==> Parameters: 
+2018-9-20 16:53:01 SimpleAsyncTaskExecutor-4 DEBUG <==      Total: 6
+2018-9-20 16:53:04 SimpleAsyncTaskExecutor-5 DEBUG ==>  Preparing: SELECT userId,userName,password,phone FROM t_user 
+2018-9-20 16:53:04 SimpleAsyncTaskExecutor-5 DEBUG ==> Parameters: 
+2018-9-20 16:53:04 SimpleAsyncTaskExecutor-5 DEBUG <==      Total: 6

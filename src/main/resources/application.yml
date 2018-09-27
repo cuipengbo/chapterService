@@ -1,0 +1,86 @@
+server:
+  port: 1213
+  
+spring:
+  application:
+    name: spring-chapterService
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/admin?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+    username: root
+    password: root
+  swagger:
+    enable: true
+    title: 乱搞中心
+    description: 随便写点
+    version: 0.0.1
+    contact:
+      name: 波波喽
+
+      
+      
+    
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.hytx.chapterService.model
+##驼峰命名规范 如：数据库字段是  order_id 那么 实体字段就要写成 orderId
+  configuration:
+    map-underscore-to-camel-case: true
+
+#pagehelper分页插件
+pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql
+ 
+    
+##Matser的ip地址  
+#redis:
+#  hostName: 172.18.3.55
+##端口号  
+#  port: 6379
+##如果有密码  
+#  password: 
+##客户端超时时间单位是毫秒 默认是2000 
+#  timeout: 10000  
+##最大空闲数  
+#  maxIdle: 300  
+##连接池的最大数据库连接数。设为0表示无限制,如果是jedis 2.4以后用redis.maxTotal  
+##redis.maxActive=600  
+##控制一个pool可分配多少个jedis实例,用来替换上面的redis.maxActive,如果是jedis 2.4以后用该属性  
+#  maxTotal: 1000  
+##最大建立连接等待时间。如果超过此时间将接到异常。设为-1表示无限制。  
+#  maxWaitMillis: 1000  
+##连接的最小空闲时间 默认1800000毫秒(30分钟)  
+#  minEvictableIdleTimeMillis: 300000  
+##每次释放连接的最大数目,默认3  
+#  numTestsPerEvictionRun: 1024  
+##逐出扫描的时间间隔(毫秒) 如果为负数,则不运行逐出线程, 默认-1  
+#  timeBetweenEvictionRunsMillis: 30000  
+##是否在从池中取出连接前进行检验,如果检验失败,则从池中去除连接并尝试取出另一个  
+#  testOnBorrow: true  
+##在空闲时检查有效性, 默认false  
+#  testWhileIdle: true  
+#
+##redis集群配置      
+#  cluster:
+#    nodes: #192.168.177.128:7006
+#    max-redirects: 3
+#
+##哨兵模式
+##redis.sentinel.host1=192.168.177.128
+##redis.sentinel.port1=26379
+#
+##redis.sentinel.host2=172.20.1.231  
+##redis.sentinel.port2=26379
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
