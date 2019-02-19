@@ -44,7 +44,7 @@ public class AttachController {
 	@GetMapping("/all")
 	public PageInfo<Attach> findAllAttach(
 			@RequestParam(name = "pageNum", required = false, defaultValue = "1") int pageNum,
-			@RequestParam(name = "pageSize", required = false, defaultValue = "10") int pageSize) {
+			@RequestParam(name = "pageSize", required = false, defaultValue = "5") int pageSize) {
 		return attachService.findAllUser(pageNum, pageSize);
 	}
 
